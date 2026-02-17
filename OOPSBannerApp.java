@@ -4,11 +4,13 @@ public class OOPSBannerApp {
 
         String[] banner = {
 
-                String.join("   ", " *** ", " *** ", "*****", "*****"),
-                String.join("   ", "*   *", "*   *", "*   *", "*    "),
-                String.join("   ", "*   *", "*   *", "*****", " *** "),
-                String.join("   ", "*   *", "*   *", "*    ", "    *"),
-                String.join("   ", " *** ", " *** ", "*    ", "*****")
+            String.join("   ", " ***** ", " ***** ", " ****** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*      *", "*     "),
+            String.join("   ", "*     *", "*     *", "*      *", "*     "),
+            String.join("   ", "*     *", "*     *", " ****** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*       ", "     * "),
+            String.join("   ", "*     *", "*     *", "*       ", "*    * "),
+            String.join("   ", " ***** ", " ***** ", "*       ", " ****  ")
 
         };
 
@@ -17,5 +19,3 @@ public class OOPSBannerApp {
         }
     }
 }
-
-
